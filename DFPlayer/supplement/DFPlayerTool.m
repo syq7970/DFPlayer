@@ -7,7 +7,7 @@
 //
 
 #import "DFPlayerTool.h"
-#import "AFNetworkReachabilityManager.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface DFPlayerTool()
 
