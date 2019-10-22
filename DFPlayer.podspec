@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
     s.resource     = 'DFPlayer/DFPlayer.bundle'
     s.requires_arc = true
     s.frameworks = 'UIKit','AVFoundation','MediaPlayer'
+    s.dependency 'AFNetworking'
     # s.subspec 'supplement' do |ss|
     #     ss.source_files = 'DFPlayer/supplement/*.{h,m}'
     # end
